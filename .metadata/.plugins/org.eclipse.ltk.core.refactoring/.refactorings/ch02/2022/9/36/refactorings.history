@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sec2.Cast2&apos; to &apos;Cast1&apos;&#x0D;&#x0A;- Original project: &apos;ch02&apos;&#x0D;&#x0A;- Original element: &apos;sec2.Cast2&apos;&#x0D;&#x0A;- Renamed element: &apos;sec2.Cast1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Cast2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sec2{Cast2.java[Cast2" matchStrategy="1" name="Cast1" qualified="false" references="true" similarDeclarations="false" stamp="1662103182758" textual="false" version="1.0"/>
+</session>
