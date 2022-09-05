@@ -24,4 +24,13 @@ public class Var01 {
 		 * 여러 단어를 합성한 변수명은 단어 사이 사이에 _로 연결한다. = 언더스코어방식
 		 */
 	}
+
+
+byte bytevalue = 10;
+float floatvalue = 2.5F;
+double doublevalue = 2.5;
+byte result = bytevalue + bytevalue;
+//int result = 5 + bytevalue;
+//float result = 5 + floatvalue;
+//double result = 5 + doublevalue;
 }
