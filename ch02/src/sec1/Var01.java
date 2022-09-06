@@ -29,7 +29,7 @@ public class Var01 {
 byte bytevalue = 10;
 float floatvalue = 2.5F;
 double doublevalue = 2.5;
-byte result = bytevalue + bytevalue;
+//byte result = bytevalue + bytevalue;
 //int result = 5 + bytevalue;
 //float result = 5 + floatvalue;
 //double result = 5 + doublevalue;

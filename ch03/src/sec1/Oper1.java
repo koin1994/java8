@@ -7,10 +7,10 @@ package sec1;
 //a, b -> Operand
 public class Oper1 {
 	public static void main(String[] args) {
-		int a=20, b=30 c;
-		System.out.println(a);
+		//int a=20, b=30 //c;
+		//System.out.println(a);
 		prt();
-		c = a + b;
+		//c = a + b;
 		//운용방식1 : +ab - pre(fix) order(전위)
 		//운용방식2 : ab+ - post(fix) order(후위)
 		//운용방식3 : a+b - in(fix) order(중위)
