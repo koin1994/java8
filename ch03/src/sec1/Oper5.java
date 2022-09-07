@@ -3,7 +3,7 @@ package sec1;
 public class Oper5 {
 	public static void main(String[] args) {
 		//비트(2진수)연산
-		int a=10, b=20, c=30, d=40, e, f, g, h;
+		int a=10, b=5, c=30, d=40, e, f, g, h;
 		e = c & d;
 		f = c | d;
 		g = ~(c & d);
