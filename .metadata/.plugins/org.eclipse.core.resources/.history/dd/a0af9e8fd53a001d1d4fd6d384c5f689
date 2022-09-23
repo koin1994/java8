@@ -6,17 +6,18 @@ public class Product {
 	private int amount;
 	private int price;
 	private String img;
-	
-	public Product() { }
-	public Product(String pid, String pname){
+
+	public Product(){}
+	public Product(String pid,String pname){
 		this.pid = pid;
 		this.pname = pname;
+		
 	}
-	public Product(String pid, String pname, int amount, int price) {
-		this.pid = pid;
-		this.pname = pname;
-		this.amount = amount;
-		this.price = price;
+		public Product(String pid, String pname, int amount, int price){	
+		this.pid = pid;	
+		this.pname = pname;	
+		this.amount = amount;	
+		this.price = price;	 
 	}
 	
 	public String getPid() {
@@ -49,25 +50,25 @@ public class Product {
 	public void setImg(String img) {
 		this.img = img;
 	}
-	
 	public int calcMoney(){
-		return amount*price;
+		return this.getAmount()*this.getPrice();
 	}
 	public String calcRank(){
-		String grade = "";
-		if(price>=100000) grade="고가";
-		else if(price>=50000) grade="중저가";
-		else grade="저가";
-		return grade;
+		String Rank ="";
+		if(this.price>=100000){
+			Rank="고가";
+		}	else if(this.price>=50000){
+			Rank="중저가";
+		}	else {
+			Rank="저가";
+		}
+		return Rank;
 	}
-	public void printImg(){
-		System.out.println("이미지 : "+img);
+	public String printImg(){
+		return this.img;
 	}
-	public void printProduct(){
-		System.out.println("제품아이디 : "+pid);
-		System.out.println("제품이름 : "+pname);
-		System.out.println("제품수량 : "+amount);
-		System.out.println("제품가격 : "+price);
-		System.out.println("이미지 : "+img);
+	public String printProduct(){
+		System.out.println("제품명 =");
 	}
 }
+
