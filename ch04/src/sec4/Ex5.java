@@ -2,21 +2,11 @@ package sec4;
 
 public class Ex5 {
 	public static void main(String[] args) {
-		for(int i=1;i<=5;i++){
-			for(int j=1;j<=i;j++){
-				System.out.print("*");
-				if(j==i){
-					System.out.println();
-				}
+		//4x+5y=60 - x와 y에 특정 값을 대입하였을 경우에 계산결과가 60이 되는 해를 구하라
+		for(int x=1;x<=10;x++){
+			for(int y=1;y<=10;y++){
+				if(4*x+5*y==60) System.out.println("("+x+","+y+")");
 			}
-		}
-			System.out.println("\n");
-			
-			for(int i=0;i<5;i++){
-				for(int j=5;j>i;j--){
-					System.out.print("*");
-			}
-					System.out.println("\n");
 		}
 	}
 }

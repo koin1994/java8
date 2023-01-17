@@ -6,9 +6,9 @@ public class Print1 {
 		System.out.print("b\n");
 		System.out.print("c\n");
 		
-		System.out.println("d");
+		System.out.println("\nd");
 		System.out.println("e");
 		System.out.println("f");
-		System.out.println("번호\t이름\t국어\t영어\t수학\t총점\\");		;
+		System.out.println("번호\t이름\t국어\t영어\t수학\t총점\\\"");
 	}
 }

@@ -2,10 +2,9 @@ package sec1;
 //제어문 : 프로그램 상 작업의 흐름을 제어하기 위한 명령문
 //제어문은 조건분기문과 반복문으로 구성
 public class Cont1 {
-
 	public static void main(String[] args) {
 		int a=90;
-		if(a>=60) {		//조건 분기문
+		if(a>=60) {  //조건 분기문 : 아래와 같이 일의 흐름이 조건에 따라 달리 적용해야 할 때 사용
 			pass();
 		} else {
 			fail();
@@ -18,7 +17,7 @@ public class Cont1 {
 		}
 		System.out.println("총점 : "+hap);
 	}
-	public static void pass() {
+	public static void pass(){
 		System.out.println("합격");
 	}
 	public static void fail() {

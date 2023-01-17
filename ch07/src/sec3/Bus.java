@@ -11,8 +11,5 @@ public class Bus extends Car {
 	@Override
 	public void stop() {
 		System.out.println("버스가 멈춥니다.");
-		super.stop();
 	}
-	
-
 }

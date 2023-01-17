@@ -7,11 +7,11 @@ public class Loop5 {
 		for(int i=k.length-1;i>=0;i--){
 			System.out.println(i+"번째 점수 : "+k[i]);
 		}
-		System.out.println("*********************");
+		System.out.println("****************************");
 		int n=k.length-1;
 		while(n>=0){
-			System.out.println(n+"번째 점수 :"+k[n]);
-			n--;
+			System.out.println(n+"번째 점수 : "+k[n]);
+			n--; //n=n-1
 		}
 	}
 }

@@ -1,6 +1,5 @@
 package sec2;
 
-
 public class Condition4 {
 	public static void main(String[] args) {
 		//점수를 입력받아 등급을 구하되, 등급은 90점 이상이면, "A", 80점 이상이면, "B", 
@@ -18,7 +17,7 @@ public class Condition4 {
 			default:
 				실행문n;
 		}*/
-		int jum = 50;
+		int jum = 84;
 		String rank="";
 		if(jum>=90){
 			rank="A";

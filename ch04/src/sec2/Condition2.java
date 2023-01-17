@@ -32,12 +32,3 @@ public class Condition2 {
 		sc.close();
 	}
 }
-	
-			
-	
-		
-		
-	
-	
-
-

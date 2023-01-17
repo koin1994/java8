@@ -5,7 +5,7 @@ public class Parent {
 	String field2;
 	
 	public Parent() { }
-	public Parent (int field1){
+	public Parent(int field1){ 
 		//this.field1=field1;
 		this(field1, "kim");
 	}
@@ -14,5 +14,5 @@ public class Parent {
 		this.field2=field2;
 	}
 	public void method1(){ }
-	public int method2(){ return field1+100; }
+	public int method2() { return field1+100; }
 }
